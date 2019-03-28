@@ -12,6 +12,8 @@ def convert(vid_path, target_folder):
 		if ret is True:
 			cv2.imwrite('{}frame_{}.png'.format(target_folder, i), frame)
 			i += 1
+		else:
+			print("Convert completed!")
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
