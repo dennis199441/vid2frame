@@ -1,7 +1,7 @@
 import numpy as np
 import cv2, argparse
 
-def vid2img(vid_path, target_folder):
+def convert(vid_path, target_folder):
 	if not target_folder.endswith('/'):
 		target_folder += '/'
 
@@ -22,4 +22,4 @@ if __name__ == '__main__':
 	src_file = args.src_file
 	target_folder = args.target_folder
 
-	vid2img(src_file, target_folder)
+	convert(src_file, target_folder)
