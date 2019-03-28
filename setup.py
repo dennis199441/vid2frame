@@ -4,7 +4,7 @@ setup(
 	name='vid2frame',
 	packages=find_packages(),
 	description='Video-to-Frames converter',
-	version='0.0.2',
+	version='0.0.3',
 	url='https://github.com/dennis199441/vid2frame',
 	author='Dennis Cheung',
 	author_email='dennis199441@gmail.com',
