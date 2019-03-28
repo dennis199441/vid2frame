@@ -14,6 +14,7 @@ def convert(vid_path, target_folder):
 			i += 1
 		else:
 			print("Convert completed!")
+			return
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
