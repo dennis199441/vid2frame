@@ -4,8 +4,8 @@ setup(
 	name='vid2img',
 	packages=find_packages(),
 	description='Video-to-Images converter',
-	version='0.0.2',
-	url='https://github.com/dennis199441/pytalib',
+	version='0.0.1',
+	url='https://github.com/dennis199441/vid2img',
 	author='Dennis Cheung',
 	author_email='dennis199441@gmail.com',
 	install_requires=[
